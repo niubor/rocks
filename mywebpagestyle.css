@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	background-image: url(../image/niubor.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+.test1{
+	font-family:"Oxygen", sans-serif;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+    box-shadow: 10px 10px gold;
+	
+	
+}
+.niconne{
+	font-family: 'Niconne', cursive;
+	font-size:medium;
+	color:navy;
+    background: linear-gradient(to bottom,red 40px,blue 120px,white);
+}
+.first {
+	font-size: 72px;
+	color: aqua;
+	text-shadow: 4px 6px 5px red,0 0 20px blue,0 0 5px darkblue;
+    background: linear-gradient(to right,green,gold)
+    
+}
+.second {
+   
+    background: conic-gradient(at 0% 30%,green,red,blue,yellow);
+}
+
+    @keyframes  example{
+        0%{width:100px}
+        25%%{width:200px}
+        50%{width:300px}
+        75%{width:400px}
+        100%{width:500px}
+        125%{width:600px}
+
+        
+    }
+.three{
+    animation-name: example;
+    animation-duration: 3s;
+    background: conic-gradient(at 0% 30%,green,red,blue,yellow);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+section {
+        background-color:rgba(255,224,223,0.5);
+        margin: 20px 5px 70px 20px;
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        margin-left: 20px;
+        padding: 20px;
+        border-style: outset;
+        border-width: 7px;
+        border-radius:25px 25px 25px 25px;
+        
+        }
+header{
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    .container {
+     display: flex;
+     flex-direction: column; 
+     background: yellow;
+
+    }
+    container > section {
+        flex: 1;
+        border: 1px solid black;
+      }
+
+
+      * {
+          box-sizing: border-box ;
+
+      }
+      ul a {
+          padding:10px 15px ;
+          display: block;
+          text-align: center;
+          text-transform: uppercase;
+          color: white;
+          font-size: 1.2e;
+
+      }
+      ul li a:hover {
+        background: #444;
+      }
+       
+      ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-top: 20px;
+        background: black;
+        color: white;
+      }
+       
+      @media (max-width: 760px) {
+        ul {
+          flex-direction: column;
+        }
+      }
+      
+     
